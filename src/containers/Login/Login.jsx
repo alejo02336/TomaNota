@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
+import GoogleIcon from "../../assets/static/icon/2000px-Google_G_Logo.svg_.png";
 
 const HOSTNAME = "http://localhost:4000/api/v1/";
 
@@ -39,7 +40,7 @@ function Login() {
   return (
     <section>
       <form className="login">
-        <h1 className="login-title">Inicio de sesión</h1>
+        <h1 className="login-title font">Iniciar Sesión</h1>
         <input
           value={email}
           placeholder="Correo"
@@ -62,6 +63,22 @@ function Login() {
           onClick={() => verifyUser()}
         />
         <h2>O ingresa por otras formas</h2>
+        <section className="social-section">
+          <img
+            src={GoogleIcon}
+            className="social-login"
+            alt="Inicia con Google"
+          />
+          <p>Ingresa con Google</p>
+        </section>
+        <section className="social-section">
+          <img
+            src={GoogleIcon}
+            className="social-login"
+            alt="Inicia con Facebook"
+          />
+          <p>Ingresa con facebook</p>
+        </section>
       </form>
     </section>
   );

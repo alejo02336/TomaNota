@@ -5,6 +5,7 @@
   align-items: center;
   height: 400px;
   margin: auto;
+  /* background-color: var(--secondary-color); */
 }
 
 .login-title {
@@ -19,8 +20,33 @@
   margin-bottom: 2.5rem;
 }
 
+.social-section {
+  display: flex;
+  width: 50%;
+  min-width: 150px;
+  max-width: 230px;
+  justify-content: space-evenly;
+  border: 1px solid #c4c4c4;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+.social-section > p {
+  font-size: 1.2rem;
+}
+
+.social-section:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+.social-login {
+  width: 1.2rem;
+  height: auto;
+}
+
 input {
-  font-family: "Inter";
+  font-family: "Roboto";
   padding: 1rem;
   border-radius: 1rem;
   border: 1px solid #c4c4c4;
@@ -31,5 +57,18 @@ input {
   .login {
     height: 90vh;
     width: 55%;
+  }
+
+  .social-section {
+    justify-content: space-around;
+    padding: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  .social-section > p {
+    font-size: 1.6rem;
+  }
+  .social-login {
+    width: 2rem;
   }
 }
