@@ -7,6 +7,7 @@ import Login from '../containers/Login/Login';
 import Control from '../containers/Control/Control';
 import Foro from '../containers/Foro/Foro';
 import SubForos from '../containers/Foro/SubForos';
+import Publication from '../containers/Foro/Publication';
 import Lineas from '../containers/Lineas/Lineas';
 import NotFound from '../containers/NotFound/NotFound';
 import Mapa from '../components/Mapa';
@@ -27,6 +28,7 @@ function App() {
           <Route path="/lineas" element={<Lineas />} />
           <Route path="/subforos" element={<SubForos />} />
 
+          <Route path="/publication" element={<Publication />} />
           <Route path="/map" element={<Mapa />} />
           <Route path="/report" element={<MReporte />} />
 
