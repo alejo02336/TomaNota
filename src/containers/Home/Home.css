@@ -1,7 +1,7 @@
 .home-banner {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-flow: column;
   background-color: var(--secondary-color);
   height: auto;
   width: 100%;
@@ -10,7 +10,7 @@
 .title-home {
   font-size: 5rem !important;
   padding: 9rem 0rem !important;
-  font-family: "Leckerli One", cursive;
+  font-family: 'Leckerli One', cursive;
 }
 
 .home-banner__img {
@@ -64,7 +64,7 @@
 }
 @media (min-width: 800px) {
   .home-banner {
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
     width: 100%;
   }
