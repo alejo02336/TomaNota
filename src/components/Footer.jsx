@@ -1,22 +1,20 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "../assets/styles/Footer.css";
+import '../components/styles/Footer.css';
 
 export default function Footer() {
   return (
-    <section className="footer">
-      <ul className="footer-container">
-        <Link to="/" className="footer-container__item">
-          <li>Líneas</li>
-        </Link>
-        <Link to="/" className="footer-container__item">
-          <li>Mapa</li>
-        </Link>
-        <Link to="/foro" className="footer-container__item">
-          <li>Foro</li>
-        </Link>
-      </ul>
-    </section>
+    <nav className="nav">
+      <Link to="/" className="nav__link">
+        <i className="material-icons nav__icon">call</i>
+      </Link>
+      <Link to="/" className="nav__link nav__link">
+        <i className="material-icons nav__icon">map</i>
+      </Link>
+      <Link to="/foro" className="nav__link">
+        <i className="material-icons nav__icon">chat</i>
+      </Link>
+    </nav>
   );
 }
