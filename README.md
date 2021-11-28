@@ -1,9 +1,8 @@
 # Toma nota
 
-* Web app en mobile First
+- Web app en mobile First
 
-Puedes acceder a ella en:  http://tomanota.surge.sh/
-
+Puedes acceder a ella en: http://tomanota.surge.sh/
 
 Web app que permita desplegar foros donde se pueden compartir: recomendaciones, experiencias, zona inseguras y demás funcionalidades para crear una comunidad. Cabe añadir que la información personal no será visible por otros usuarios, siende de forma anónima para guardar la privacidad de la persona.
 
@@ -19,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn build`
+### `npm build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
