@@ -43,7 +43,9 @@ export class MapContainer extends Component {
             radius={200}
             center={coords}
             onMouseover={() => console.log('mouseover')}
-            onClick={() => console.log('click')}
+            onClick={() => {
+              window.location.pathname = '/mapdetail';
+            }}
             onMouseout={() => console.log('mouseout')}
             strokeColor="transparent"
             strokeOpacity={0}
@@ -56,7 +58,6 @@ export class MapContainer extends Component {
             radius={350}
             center={coords1}
             onMouseover={() => console.log('mouseover')}
-            onClick={() => console.log('click')}
             onMouseout={() => console.log('mouseout')}
             strokeColor="transparent"
             strokeOpacity={0}
@@ -69,7 +70,9 @@ export class MapContainer extends Component {
             radius={300}
             center={coords2}
             onMouseover={() => console.log('mouseover')}
-            onClick={() => console.log('click')}
+            onClick={() => {
+              window.location.pathname = '/mapdetail';
+            }}
             onMouseout={() => console.log('mouseout')}
             strokeColor="transparent"
             strokeOpacity={0}
