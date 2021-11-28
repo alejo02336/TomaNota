@@ -11,6 +11,7 @@ import Publication from "../containers/Foro/Publication";
 import Lineas from "../containers/Lineas/Lineas";
 import NotFound from "../containers/NotFound/NotFound";
 import Mapa from "../components/Mapa";
+import MapaDetalle from "../containers/Mapa/MapaDetalle";
 import MReporte from "../containers/Mapa/MReporte";
 import ReporteInfo from "../containers/Mapa/ReporteInfo";
 
@@ -31,6 +32,7 @@ function App() {
 
           <Route path="/publication" element={<Publication />} />
           <Route path="/map" element={<Mapa />} />
+          <Route path="/mapdetail" element={<MapaDetalle />} />
           <Route path="/report" element={<MReporte />} />
           <Route path="/reportInformation" element={<ReporteInfo />} />
 
