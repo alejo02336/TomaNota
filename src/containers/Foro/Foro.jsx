@@ -1,17 +1,19 @@
-import React from "react";
-import SearchBar from "../../components/SearchBar";
-import Comment from "../../components/Comment";
-import "./Foro.css";
+import React from 'react';
+import SearchBar from '../../components/SearchBar';
+import Comment from '../../components/Comment';
+import './Foro.css';
+import { Link } from 'react-router-dom';
 
 export default function Foro() {
   return (
     <section>
-      <SearchBar />
       <section className="container-explore">
         <h1>Explora aquí</h1>
         <section className="container-options">
           <p>Sugerencias</p>
-          <p>Sub-foros</p>
+          <Link to="/subforos">
+            <p>Sub-foros</p>
+          </Link>
         </section>
       </section>
       {/* add suggestions */}

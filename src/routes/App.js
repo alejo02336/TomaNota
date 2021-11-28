@@ -6,6 +6,8 @@ import Home from '../containers/Home/Home';
 import Login from '../containers/Login/Login';
 import Control from '../containers/Control/Control';
 import Foro from '../containers/Foro/Foro';
+import SubForos from '../containers/Foro/SubForos';
+import Lineas from '../containers/Lineas/Lineas';
 import NotFound from '../containers/NotFound/NotFound';
 import Mapa from '../components/Mapa';
 
@@ -21,6 +23,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/foro" element={<Foro />} />
+          <Route path="/lineas" element={<Lineas />} />
+          <Route path="/subforos" element={<SubForos />} />
+
           <Route path="/map" element={<Mapa />} />
 
           {toggleRoutesPermission && (

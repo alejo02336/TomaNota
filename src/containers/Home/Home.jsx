@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Home.css";
-import foodhySlogan from "../../assets/static/foodhyContent/foodhy-slogan.jpg";
 
 export default class Home extends Component {
   render() {
