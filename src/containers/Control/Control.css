@@ -1,0 +1,68 @@
+.control {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: right;
+  height: auto;
+  margin: auto;
+  padding: 5rem;
+}
+
+.control-title {
+  font-size: 2rem;
+}
+
+.control-welcome {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.control-btn {
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  width: 200px;
+}
+
+table {
+  width: auto;
+}
+
+th {
+  font-size: 1rem;
+}
+th,
+td {
+  border: 1px solid black;
+}
+
+@media (min-width: 800px) {
+  .control-title {
+    font-size: 3rem;
+  }
+
+  th {
+    font-size: 1.6rem;
+  }
+}
+.control-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: auto;
+
+  width: 100%;
+}
+
+.control-form {
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: auto; */
+}

@@ -1,0 +1,11 @@
+td {
+  font-size: 1rem;
+  padding: 0.1rem;
+}
+
+@media (min-width: 800px) {
+  td {
+    font-size: 1.4rem;
+    padding: 0rem 1rem;
+  }
+}

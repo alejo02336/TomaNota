@@ -1,0 +1,25 @@
+.footer {
+  background-color: black;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+ul {
+  height: 10rem;
+}
+
+li {
+  cursor: pointer;
+}
+
+.footer-container__item {
+  text-decoration: none;
+  color: white;
+}
