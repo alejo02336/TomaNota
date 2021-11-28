@@ -61,7 +61,7 @@ function Login() {
           className="login-btn"
           onClick={() => verifyUser()}
         />
-        <h2>Ingresa al panel de control, sólo para usuarios administradores</h2>
+        <h2>O ingresa por otras formas</h2>
       </form>
     </section>
   );

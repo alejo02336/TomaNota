@@ -1,7 +1,7 @@
 {
-  "name": "foodhyweb",
+  "name": "tomanota",
   "version": "0.1.0",
-  "homepage": "http://foodhy.com.co/",
+  "homepage": "http://stimulating-quilt.surge.sh/",
   "private": true,
   "dependencies": {
     "mysql": "^2.18.1",

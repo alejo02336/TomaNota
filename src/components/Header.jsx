@@ -6,7 +6,10 @@ import logoWeb from "../assets/static/foodhyContent/foodhy-logo.png";
 export default function Header() {
   return (
     <section className="header">
-      <img src={logoWeb} className="header_img" alt="Logo Foodhy" />
+      {/* <img src={logoWeb} className="header_img" alt="Logo Foodhy" /> */}
+      <NavLink to="/" className="header_options font" activeClass="active">
+        TomaNota
+      </NavLink>
       <NavLink to="/" className="header_options" activeClass="active">
         Home
       </NavLink>
