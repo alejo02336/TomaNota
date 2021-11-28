@@ -62,6 +62,9 @@ h1 {
 .form-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
 }
 
 .btn-publish {
@@ -93,5 +96,10 @@ label {
 @media (min-width: 800px) {
   label {
     font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
   }
 }

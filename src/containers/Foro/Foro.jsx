@@ -1,12 +1,19 @@
 import React from "react";
-// import SearchBar from '../../components/SearchBar';
 import Comment from "../../components/Comment";
 import "./Foro.css";
 import { Link } from "react-router-dom";
+import Banner1 from "../../assets/imgs/Banner1.svg";
 
 export default function Foro() {
   return (
     <section>
+      <section>
+        <img
+          src={Banner1}
+          className="banner-pub"
+          alt="banner de publicidad programático"
+        />
+      </section>
       <section className="container-explore">
         <h1>Explora aquí</h1>
         <section className="container-options">
