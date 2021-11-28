@@ -46,3 +46,12 @@ code {
   height: auto;
   max-height: 200px;
 }
+
+.report-container {
+  padding: 1rem;
+}
+
+.i-map {
+  text-decoration: none;
+  color: white;
+}
