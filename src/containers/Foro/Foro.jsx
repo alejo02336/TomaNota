@@ -12,7 +12,9 @@ export default function Foro() {
         <h1>Explora aquí</h1>
         <section className="container-options">
           <p>Sugerencias</p>
-          <p>Sub-foros</p>
+          <Link to="/subforos">
+            <p>Sub-foros</p>
+          </Link>
         </section>
       </section>
       {/* add suggestions */}
