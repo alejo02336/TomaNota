@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const MapaDetalle = () => {
+export default function ReporteInfo() {
   return (
     <section className="report-container">
       <Link to="/map">
@@ -9,13 +9,11 @@ const MapaDetalle = () => {
       </Link>
       <section className="container-img-subforos">
         <img
-          src={require("./Map_detalle.svg")}
+          src={require("./Map_información.svg")}
           className="img-subforos"
           alt="example"
         />
       </section>
     </section>
   );
-};
-
-export default MapaDetalle;
+}

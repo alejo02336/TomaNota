@@ -1,6 +1,7 @@
-import React, { Fragment } from 'react';
-import '../../components/styles/Search.css';
-import Btn from '../../components/Btn';
+import React, { Fragment } from "react";
+import "../../components/styles/Search.css";
+import Btn from "../../components/Btn";
+
 const MReporte = () => {
   return (
     <div className="report">
@@ -8,19 +9,19 @@ const MReporte = () => {
 
       <div className="alertas">
         <div className="bola">
-          <img src={require('../../components/images/Commercial.png')} alt="" />
+          <img src={require("../../components/images/Commercial.png")} alt="" />
         </div>
         <div className="bola">
           <img
-            src={require('../../components/images/Warning Shield.png')}
+            src={require("../../components/images/Warning Shield.png")}
             alt=""
           />
         </div>
         <div className="bola">
-          <img src={require('../../components/images/Wrestling.png')} alt="" />
+          <img src={require("../../components/images/Wrestling.png")} alt="" />
         </div>
         <div className="bola">
-          <img src={require('../../components/images/Protect.png')} alt="" />
+          <img src={require("../../components/images/Protect.png")} alt="" />
         </div>
       </div>
       <textarea
@@ -30,7 +31,7 @@ const MReporte = () => {
 
       <img
         className="publicidad"
-        src={require('../../components/images/Group 25.png')}
+        src={require("../../components/images/Group 25.png")}
       />
 
       <Btn />
