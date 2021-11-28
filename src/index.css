@@ -40,3 +40,9 @@ code {
   color: white;
   border-color: #412a56;
 }
+
+.banner-pub {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import GoogleIcon from "../../assets/static/icon/2000px-Google_G_Logo.svg_.png";
+import FacebookIcon from "../../assets/static/icon/Facebook_f_logo_(2019).svg";
 import { Link } from "react-router-dom";
 
 const HOSTNAME = "http://localhost:4000/api/v1/";
@@ -74,7 +75,7 @@ function Login() {
         </Link>
         <Link to="/foro" className="social-section">
           <img
-            src={GoogleIcon}
+            src={FacebookIcon}
             className="social-login"
             alt="Inicia con Facebook"
           />
