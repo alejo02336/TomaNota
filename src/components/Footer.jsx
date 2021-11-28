@@ -13,7 +13,7 @@ export default function Footer() {
         <Link to="/" className="footer-container__item">
           <li>Mapa</li>
         </Link>
-        <Link to="/" className="footer-container__item">
+        <Link to="/foro" className="footer-container__item">
           <li>Foro</li>
         </Link>
       </ul>
