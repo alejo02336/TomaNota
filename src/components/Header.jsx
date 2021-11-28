@@ -9,9 +9,7 @@ export default function Header() {
       <NavLink to="/" className="header_options font" activeClass="active">
         TomaNota
       </NavLink>
-      <NavLink to="/login" className="header_options" activeClass="active">
-        Login
-      </NavLink>
+
       {localStorage.getItem("admin") ? (
         <NavLink to="/control" className="header_options" activeClass="active">
           Control

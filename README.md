@@ -1,10 +1,13 @@
 # Toma nota
 
-- Web app en mobile First
+# VIDEO DE COMPROBACIÓN
 
-* Puedes acceder a ella en: http://tomanota.surge.sh/
-* Video de las interfaces de la solución: https://youtu.be/MkdVRkX3tI0
-* Presentación de la problemática: https://docs.google.com/presentation/d/1eStFEeArB78dTzn9KmLhUSYTPlfFcR_u/edit?usp=sharing&ouid=107203791621199706847&rtpof=true&sd=true
+- Video de las interfaces de la solución: https://youtu.be/Io10aUmksps
+
+* Web app en mobile First
+
+- Puedes acceder a ella en: http://tomanota.surge.sh/
+- Presentación de la problemática: https://docs.google.com/presentation/d/1eStFEeArB78dTzn9KmLhUSYTPlfFcR_u/edit?usp=sharing&ouid=107203791621199706847&rtpof=true&sd=true
 
 Web app que permita desplegar foros donde se pueden compartir: recomendaciones, experiencias, zona inseguras y demás funcionalidades para crear una comunidad. Cabe añadir que la información personal no será visible por otros usuarios, siende de forma anónima para guardar la privacidad de la persona.
 
