@@ -1,0 +1,49 @@
+.main {
+  margin: auto;
+  width: 90%;
+  position: absolute;
+  z-index: 2;
+  left: 3%;
+}
+.main input,
+button {
+  width: 100%;
+  border: 2px solid white;
+  border-right: 0px;
+  font-size: 18px;
+  padding: 12px;
+}
+.main input:hover {
+  opacity: 0.8;
+}
+.main button {
+  width: 25%;
+  background-color: #eee;
+  color: black;
+  transition: all 0.3s;
+  float: right;
+  border-left: 0px;
+}
+.main button:hover {
+  opacity: 0.8;
+}
+
+.caja {
+  background-color: white;
+  font-size: small;
+}
+
+.abajo {
+  position: absolute;
+
+  width: 80%;
+  height: 50px;
+  z-index: 1;
+  border-radius: 10px;
+  bottom: 0vh;
+  top: 78vh;
+  left: 10%;
+  background-color: #412a56;
+  color: white;
+  border-color: #412a56;
+}

@@ -9,7 +9,7 @@ export default function Footer() {
       <Link to="/" className="nav__link">
         <i className="material-icons nav__icon">call</i>
       </Link>
-      <Link to="/" className="nav__link nav__link">
+      <Link to="/map" className="nav__link nav__link">
         <i className="material-icons nav__icon">map</i>
       </Link>
       <Link to="/foro" className="nav__link">
