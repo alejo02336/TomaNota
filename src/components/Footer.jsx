@@ -1,12 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import '../components/styles/Footer.css';
+import "../components/styles/Footer.css";
 
 export default function Footer() {
   return (
     <nav className="nav">
-      <Link to="/" className="nav__link">
+      <Link to="/lineas" className="nav__link">
         <i className="material-icons nav__icon">call</i>
       </Link>
       <Link to="/" className="nav__link nav__link">

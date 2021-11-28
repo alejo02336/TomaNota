@@ -6,6 +6,7 @@ import Home from "../containers/Home/Home";
 import Login from "../containers/Login/Login";
 import Control from "../containers/Control/Control";
 import Foro from "../containers/Foro/Foro";
+import Lineas from "../containers/Lineas/Lineas";
 import NotFound from "../containers/NotFound/NotFound";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/foro" element={<Foro />} />
+          <Route path="/lineas" element={<Lineas />} />
 
           {toggleRoutesPermission && (
             <Route path="/control" element={<Control />} />
