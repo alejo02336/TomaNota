@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Home from "../containers/Home/Home";
 import Login from "../containers/Login/Login";
 import Control from "../containers/Control/Control";
+import Foro from "../containers/Foro/Foro";
 import NotFound from "../containers/NotFound/NotFound";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/foro" element={<Foro />} />
 
           {toggleRoutesPermission && (
             <Route path="/control" element={<Control />} />

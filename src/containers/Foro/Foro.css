@@ -1,0 +1,27 @@
+.container-explore {
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 2rem;
+}
+
+.container-explore > h1 {
+  font-size: 2rem;
+}
+
+.container-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.container-options > p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.foro-comments-container {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: auto;
+}

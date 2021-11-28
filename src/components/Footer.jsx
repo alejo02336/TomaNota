@@ -8,13 +8,13 @@ export default function Footer() {
     <section className="footer">
       <ul className="footer-container">
         <Link to="/" className="footer-container__item">
-          <li>Contacto</li>
+          <li>Líneas</li>
         </Link>
         <Link to="/" className="footer-container__item">
-          <li>Términos y condiciones</li>
+          <li>Mapa</li>
         </Link>
         <Link to="/" className="footer-container__item">
-          <li>Nosotros</li>
+          <li>Foro</li>
         </Link>
       </ul>
     </section>
