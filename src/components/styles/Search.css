@@ -47,3 +47,60 @@ button {
   color: white;
   border-color: #412a56;
 }
+
+.infobtn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  bottom: 0vh;
+  top: 24.5vh;
+  left: 4%;
+  border-color: #412a56;
+  background-color: #412a56;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.bola {
+  border-radius: 50px;
+  border: 1px solid #c4c4c4;
+  width: 60px;
+  padding: 5px;
+}
+
+.alertas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.reporte {
+  margin-top: 35px;
+  width: 90%;
+  height: 15rem;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  padding: 8px;
+}
+
+.report {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.titulo {
+  margin-top: 35px;
+}
+
+.publicidad {
+  margin-top: 150px;
+}
+
+.abajo {
+  top: 82vh;
+}

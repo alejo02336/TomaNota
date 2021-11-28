@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 import SearchBar from './SearchBar';
 import Btn from './Btn';
+import './styles/Search.css';
 export class MapContainer extends Component {
   render() {
     return (
       <>
         <SearchBar />
+
         <Map
           google={this.props.google}
           disableDefaultUI={true}
@@ -16,6 +18,9 @@ export class MapContainer extends Component {
           <Marker onClick={this.onMarkerClick} name={'Current location'} />
         </Map>
         <Btn />
+        <button className="infobtn">
+          <h1>i</h1>
+        </button>
       </>
     );
   }

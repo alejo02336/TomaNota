@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Search.css';
+//import './styles/Search.css';
 export default function SearchBar() {
   return (
     <div className="main">

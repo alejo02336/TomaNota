@@ -10,6 +10,7 @@ import SubForos from '../containers/Foro/SubForos';
 import Lineas from '../containers/Lineas/Lineas';
 import NotFound from '../containers/NotFound/NotFound';
 import Mapa from '../components/Mapa';
+import MReporte from '../containers/Mapa/MReporte';
 
 function App() {
   let val = localStorage.getItem('admin');
@@ -27,6 +28,7 @@ function App() {
           <Route path="/subforos" element={<SubForos />} />
 
           <Route path="/map" element={<Mapa />} />
+          <Route path="/report" element={<MReporte />} />
 
           {toggleRoutesPermission && (
             <Route path="/control" element={<Control />} />
