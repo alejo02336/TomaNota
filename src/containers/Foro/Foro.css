@@ -37,7 +37,7 @@ a:hover {
 }
 
 .btn-publication {
-  position: absolute;
+  position: fixed;
   top: 80vh;
   background-color: var(--secondary-color);
   width: 100%;
@@ -49,4 +49,49 @@ a:hover {
   left: 10%;
   color: white;
   border-color: #412a56;
+}
+
+.publication-container {
+  padding: 2rem;
+}
+
+h1 {
+  margin-top: 2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-publish {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.form-options {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.container-img-subforos {
+  display: flex;
+  justify-content: center;
+}
+.img-subforos {
+  margin: auto;
+  width: 100%;
+  margin: auto;
+  max-width: 800px;
+}
+
+@media (min-width: 800px) {
+  label {
+    font-size: 1.6rem;
+  }
 }

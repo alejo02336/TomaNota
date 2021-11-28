@@ -19,7 +19,9 @@ export default function Foro() {
         </section>
       </section>
       {/* btn create */}
-      <button className="btn-publication">Comparte tu experiencia</button>
+      <Link to="/publication">
+        <button className="btn-publication">Comparte tu experiencia</button>
+      </Link>
 
       {/* add comments */}
       <section className="foro-comments-container">

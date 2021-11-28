@@ -17,11 +17,13 @@ export default function Lineas() {
             </Link>
           </section>
         </section>
-        <img
-          src={require("./Foro_Sub-foros.svg")}
-          className="img-lineas"
-          alt="example"
-        />
+        <section className="container-img-subforos">
+          <img
+            src={require("./Foro_Sub-foros.svg")}
+            className="img-subforos"
+            alt="example"
+          />
+        </section>
       </section>
     </section>
   );
