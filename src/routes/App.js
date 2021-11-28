@@ -6,6 +6,7 @@ import Home from "../containers/Home/Home";
 import Login from "../containers/Login/Login";
 import Control from "../containers/Control/Control";
 import Foro from "../containers/Foro/Foro";
+import SubForos from "../containers/Foro/SubForos";
 import Lineas from "../containers/Lineas/Lineas";
 import NotFound from "../containers/NotFound/NotFound";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/foro" element={<Foro />} />
           <Route path="/lineas" element={<Lineas />} />
+          <Route path="/subforos" element={<SubForos />} />
 
           {toggleRoutesPermission && (
             <Route path="/control" element={<Control />} />

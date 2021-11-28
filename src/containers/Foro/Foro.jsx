@@ -2,6 +2,7 @@ import React from "react";
 import SearchBar from "../../components/SearchBar";
 import Comment from "../../components/Comment";
 import "./Foro.css";
+import { Link } from "react-router-dom";
 
 export default function Foro() {
   return (
