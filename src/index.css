@@ -56,3 +56,7 @@ code {
   text-decoration: none;
   color: white;
 }
+
+textarea {
+  font-family: var(--global-font);
+}

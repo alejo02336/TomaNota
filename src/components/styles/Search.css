@@ -104,3 +104,23 @@ button {
 .abajo {
   top: 82vh;
 }
+
+.search-container {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+.search-container > input {
+  width: 80%;
+  min-width: 280px;
+  max-width: 900px;
+}
+
+@media (min-width: 800px) {
+  .search-container > input {
+    width: 70%;
+    font-size: 2rem;
+    max-width: 900px;
+  }
+}
