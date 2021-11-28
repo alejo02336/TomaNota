@@ -14,9 +14,19 @@
   margin-top: 1rem;
 }
 
-.container-options > p {
+.text-options {
   font-size: 1.5rem;
   font-weight: 300;
+
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .foro-comments-container {
@@ -24,4 +34,19 @@
   width: 80%;
   flex-wrap: wrap;
   margin: auto;
+}
+
+.btn-publication {
+  position: absolute;
+  top: 80vh;
+  background-color: var(--secondary-color);
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  border-radius: 10px;
+  bottom: 0vh;
+  top: 80vh;
+  left: 10%;
+  color: white;
+  border-color: #412a56;
 }

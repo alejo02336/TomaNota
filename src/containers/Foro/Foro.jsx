@@ -1,8 +1,8 @@
-import React from 'react';
-import SearchBar from '../../components/SearchBar';
-import Comment from '../../components/Comment';
-import './Foro.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+// import SearchBar from '../../components/SearchBar';
+import Comment from "../../components/Comment";
+import "./Foro.css";
+import { Link } from "react-router-dom";
 
 export default function Foro() {
   return (
@@ -10,13 +10,16 @@ export default function Foro() {
       <section className="container-explore">
         <h1>Explora aquí</h1>
         <section className="container-options">
-          <p>Sugerencias</p>
+          <Link to="/foro">
+            <p className="text-options">Sugerencias</p>
+          </Link>
           <Link to="/subforos">
-            <p>Sub-foros</p>
+            <p className="text-options">Sub-foros</p>
           </Link>
         </section>
       </section>
-      {/* add suggestions */}
+      {/* btn create */}
+      <button className="btn-publication">Comparte tu experiencia</button>
 
       {/* add comments */}
       <section className="foro-comments-container">
