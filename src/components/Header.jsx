@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/styles/Header.css";
-import logoWeb from "../assets/static/foodhyContent/foodhy-logo.png";
 
 export default function Header() {
   return (

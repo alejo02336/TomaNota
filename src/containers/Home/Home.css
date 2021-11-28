@@ -56,27 +56,6 @@
   width: 200px;
 }
 
-.img1 {
-  background-image: url("https://gregoryinnovo.github.io/Proyects/Foodhy/static/Screen_Main_Home.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.img2 {
-  background-image: url("https://gregoryinnovo.github.io/Proyects/Foodhy/static/Screen_Profile.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.img3 {
-  background-image: url("https://gregoryinnovo.github.io/Proyects/Foodhy/static/Screen_Wiki.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .item > p {
   color: white;
   margin-bottom: 1rem;
